@@ -1,5 +1,14 @@
 # [ngIRCd](https://ngircd.barton.de) - Internet Relay Chat Server
 
+## Install
+Edit line 783 & 786 to fit you username and brew path
+
+```
+./configure --enable-sniffer
+make install
+cp ./ngircd.conf ~/brew/etc
+```
+
 ## Introduction
 
 *ngIRCd* is a free, portable and lightweight *Internet Relay Chat* ([IRC])
