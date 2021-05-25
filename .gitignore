@@ -13,7 +13,6 @@ compile
 config.cache
 config.log
 config.status
-configure
 configure.ac
 configure.lineno
 cov-int
