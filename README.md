@@ -1,9 +1,10 @@
 # [ngIRCd](https://ngircd.barton.de) - Internet Relay Chat Server
 
 ## Install
-Edit line 783 & 786 to fit you username and brew path
+Edit line 783 & 786 in configure.good to fit you username and brew path
 
 ```
+./autogen.sh
 ./configure --enable-sniffer
 make install
 cp ./ngircd.conf ~/brew/etc
